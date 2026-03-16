@@ -365,7 +365,7 @@ paths:
       - api
   /api/users/me/:
     get:
-      operationId: meUser
+      operationId: meUserRetrieve
       description: ''
       parameters: []
       responses:
@@ -378,7 +378,7 @@ paths:
       tags:
       - api
     put:
-      operationId: meUser
+      operationId: meUserUpdate
       description: ''
       parameters: []
       requestBody:
@@ -402,7 +402,7 @@ paths:
       tags:
       - api
     patch:
-      operationId: meUser
+      operationId: meUserPartialUpdate
       description: ''
       parameters: []
       requestBody:
@@ -426,7 +426,7 @@ paths:
       tags:
       - api
     delete:
-      operationId: meUser
+      operationId: meUserDestroy
       description: ''
       parameters: []
       responses:
