@@ -52,6 +52,8 @@ python manage.py runserver
 | pillow | 11.0.0 | Работа с изображениями |
 | webcolors | 1.11.1 | Конвертация HEX-цветов в названия |
 | social-auth-app-django | 5.7.0 | Авторизация через соцсети |
+| gunicorn | 21.2.0 | WSGI-сервер для продакшна |
+| python-dotenv | 1.0.1 | Загрузка переменных из .env файла |
 | requests | 2.32.5 | HTTP-запросы |
 | asgiref | 3.11.1 | ASGI-совместимость |
 | sqlparse | 0.5.5 | Парсинг SQL-запросов |
